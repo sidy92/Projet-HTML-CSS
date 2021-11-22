@@ -4,20 +4,34 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <title>Ma page personelle</title>
-        <link rel="stylesheet" type="text/css" href="3projet.css" />
+        <link rel="stylesheet" type="text/css" href="css/cv.css" />
     </head>
     <body>
         <header>
             <h1>Mon CV</h1>
         </header>
-<!--FAIRE LE SOMMAIRE-->
+
         <section>
             <div class="ma_photo">
-                <img src="photo.PNG" alt="Ma photo/>
+                <img src="images/photo.PNG" alt="Ma photo/>
+            </div>
+
+            <div class="sommaire">
+                <h2>Sommaire</h2> 
+                <p><a href="#presentation">Présentation</a></p>
+                <p><a href="#coordonnees">Mes coordonnées</a></p>
+                <p><a href="#formations">Formations</a></p>
+                <p><a href="#experiences_professionnelles">Expériences professionnelles</a></p>
+                <p><a href="#diplomes">Diplômes</a></p>
+                <p><a href="#langues_vivantes">Langues vivantes</a></p>
+                <p><a href="#activites_extra-scolaires">Activité extra-scolaires</a></p>
+                <p><a href="#centres_d'interet">Centres d'ntérêt</a></p>
+                <p><a href="#piece_jointe">Pièce jointe</a></p>
+                <p><a href="#projet">Projet</a></p>
             </div>
 
             <div class="presentation">
-                <h2>Présentation :</h2>
+                <h2 id="presentation">Présentation</h2>
                 <p>
                         Je suis Sidy Diallo, diplômé d'un bac général spécialité mathématiques
                         et numériques et sciences informatiques avec mention bien, je suis actuellement <br/>
@@ -26,7 +40,7 @@
             </div>
 
             <div class="coordonnees">
-                <h2>Mes coordonnées</h2>
+                <h2 id="coordonnees">Mes coordonnées</h2>
                 <div class="info">
                     <p><strong>NOM - prénom :</strong> <!--mettre en gras avec div classs=... p{strong}-->
                     <p>Diallo Sidy</p>
@@ -47,7 +61,7 @@
         </section>
 
         <section>
-            <h2><center>Formations</center></h2>
+            <h2 id="formations"><center>Formations</center></h2>
             <div class="formation">
                     <!--<div class="logo">-->
                         <!--<a href="image..."><img src="fontaine.png" alt="logo fontaine"></a>-->
@@ -83,7 +97,7 @@
         </section>
 
         <section>
-            <h2><center>Expériences professionnelles</center></h2>
+            <h2 id="experiences_professionnelles"><center>Expériences professionnelles</center></h2>
             <div class="exp">
                     <!--<div class="exp-logo">-->
                         <!--<a href="image..."><img src="fontaine.png" alt="logo fontaine"></a>-->
@@ -98,7 +112,7 @@
         </section>
 
         <section>
-            <h2><center>Diplômes</center></h2>
+            <h2 id="diplomes"><center>Diplômes</center></h2>
             <div class="dip">
                     <!--<div class="logo">-->
                         <!--<a href="image..."><img src="fontaine.png" alt="logo fontaine"></a>-->
@@ -148,7 +162,7 @@
         </section>
 
         <section>
-            <h2><center>Langues vivantes</center></h2>
+            <h2 id="langues_vivantes"><center>Langues vivantes</center></h2>
             <div class="langues">
                 <div class="info-lang">
                     <h5>Anglais</h5>
@@ -165,7 +179,7 @@
         </section>
 
         <section>
-            <h2><center>Activités extra-scolaires</center></h2>
+            <h2 id="activites_extra-scolaires"><center>Activités extra-scolaires</center></h2>
             <div class="activite">
                     <!--<div class="logo">-->
                         <!--<a href="image..."><img src="fontaine.png" alt="logo fontaine"></a>-->
@@ -185,7 +199,7 @@
         </section>
 
         <section>
-            <h2><center>Centres d'intérêt</center></h2>
+            <h2 id="centres_d'interet"><center>Centres d'intérêt</center></h2>
             <div class="interet"></div>
                 <div class="info-int">
                     <h3>Informatique</h3>
@@ -205,16 +219,16 @@
         </section>
 
         <section>
-            <h2><center>Pièce jointe</center></h2>
+            <h2 id="piece_jointe"><center>Pièce jointe</center></h2>
             <div class="cv">
                 <div class="mon-cv">
-                    <h4><a href="images/Curriculum vitae 2.pdf" title="Mon CV" target="blank">Mon CV</a></h4>
+                    <h4><a href="images/Curriculum vitae 2.pdf" title="Mon CV" target="blank">Mon CV</a> en PDF.</h4>
                 </div>
             </div>
         </section>
 
         <section>
-            <h2><center>Projet</center></h2>
+            <h2 id="projet"><center>Projet</center></h2>
             <div class="projet">
                 <div class="mon-projet">
                     <h4><a href="autres_page_html/presentation_psg.html" title="Projet sur le PSG" target="blank">
